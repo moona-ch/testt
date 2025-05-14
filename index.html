@@ -1,62 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #6dd5ed, #2193b0);
-            margin: 0;
-            padding: 0;
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Thank You - Cosplay App</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
 
-        .thankyou-container {
-            background: rgba(0, 0, 0, 0.4);
-            padding: 40px;
-            border-radius: 15px;
-            max-width: 500px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.3);
-        }
-
-        .thankyou-container h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        .thankyou-container p {
-            font-size: 18px;
-        }
-
-        .thankyou-container a {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 10px 20px;
-            background: #fff;
-            color: #2193b0;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .thankyou-container a:hover {
-            background: #e0e0e0;
-        }
-    </style>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Page-specific styling -->
+  <style>
+    .thankyou-hero {
+      background: linear-gradient(135deg, #f2026b 0%, #ff8aaf 100%);
+      color: #fff;
+      padding: 8rem 0;
+      text-align: center;
+    }
+    .thankyou-hero .button {
+      padding: 1rem 2rem;
+      font-size: 1.6rem;
+      border: 4px solid #fff;
+      color: #fff;
+      border-radius: 10rem;
+      transition: all .25s ease;
+    }
+    .thankyou-hero .button:hover {
+      background: #fff;
+      color: #f2026b;
+      text-decoration: none;
+    }
+    footer.footer {
+      padding: 3rem 0;
+      background: #f8f9fa;
+    }
+    footer.footer .social li {
+      margin: 0 .5rem;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="thankyou-container">
-        <h1>Thank You!</h1>
-        <p>Your submission has been received successfully.</p>
-        <a href="index.html">Back to Home</a>
+  <!-- Header -->
+  <header class="header header-2">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <a href="index.html">
+            <img src="assets/images/footer-logo.png" alt="Cosplay Logo">
+          </a>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-primary">
+            <li><a href="index.html"><i class="fad fa-home-alt"></i></a></li>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#feature">Features</a></li>
+            <li><a href="index.html#faq">FAQs</a></li>
+            <li><a href="index.html#preview">Preview</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
+  </header>
+
+  <!-- Thank You Section -->
+  <section class="thankyou-hero">
+    <div class="container">
+      <h1 class="display-4 font-weight-bold mb-4">Thank You!</h1>
+      <p class="lead mb-5">Your submission has been received successfully. We appreciate your interest in Cosplay.</p>
+      <a href="index.html" class="button">Back to Home <i class="fad fa-long-arrow-right ml-2"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <a href="index.html"><img src="assets/images/footer-logo.png" alt="Cosplay Logo" style="width: 120px;"></a>
+      <ul class="social list-inline mt-4">
+        <li class="list-inline-item facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="list-inline-item twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="list-inline-item linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class="list-inline-item youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+      </ul>
+      <p class="mt-4">&copy; 2025 Cosplay. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
